@@ -10,13 +10,21 @@ This topic describes the issues and limitations we have run into or observed whe
 
 ## Detached Symbols
 
-As you may have already seen in the other topics `Detach from Symbol` usually results in the loss of capability for code generation. However, a few components like the List and the Grid are basically repeaters of items and cells and come as a Generic~ that is supposed to be detached to allow you to create the number of items, rows and columns that you would need. As we enhance individual items with functionality in the upcoming versions of the libraries, such updates should propagate easily, however enhancements made to the collection of items named Generic~ will not propagate for detached instances of these components.
+As you may have already seen in the other topics detaching or ungrouping symbols usually results in the loss of capability for code generation. However, a few components like the List and the Grid are basically repeaters of items and cells and come in a more generic form that is supposed to be detached to allow you to create the number of items, rows and columns that you would need. As we enhance individual items with functionality in the upcoming versions of the libraries, such updates should propagate easily, however enhancements made to the collection of items i.e. `List/One-line Item List` or `Grid/Comfortable`, for example, will not propagate to the detached instances of these components.
 
-## Getting Invalid Overrides
+While `Detach from Symbol` is something you may eventually resort to in Sketch, with Adobe XD remember that you can even add/remove layers in instances of a symbol. This is especially useful when content is templatable e.g. in a list item you may want to add a Chip, which is not there in any of the template options.
 
-When using nested overrides to customize the look and feel of a Component, we have discovered that sometimes after tweaking overrides deep in the nesting hierarchy and then changing an override above with a different underlying structure, Sketch gets confused and assigns values to this structure that are by no means appropriate for or matching it.
+## Getting Invalid Overrides in Sketch
 
-If you run in such a situation, just make sure that you pick the correct value for each on the underlying overrides and leave the Component in a valid state. Otherwise, it will not only reflect an impossible configuration, but will be impossible to read for our code generation engine.
+When using nested symbols to customize the look and feel of a Component, we have discovered that sometimes after tweaking overrides deep in the nesting hierarchy and then changing an override above with a different underlying structure, Sketch gets confused and assigns values to this structure that are by no means appropriate for or matching it.
+
+If you run in such a situation, just make sure that you pick the correct value for each on the underlying overrides and leave the Component in a valid state. Otherwise, it will not only reflect an impossible configuration, but will be impossible to comprehend by our code generation engine.
+
+## Change of Layer Name in Adobe XD
+
+When using nested symbols to customize the look and feel of a Component, we have discovered that sometimes after dragging an alternative symbol to replace the default one, Adobe XD may also change its name e.g. from `🔣 Icon` to `_Overrides/Material Icons/action/account_circle`.
+
+If you run into this type of situation, just make sure to use the original name of the layer to make sure it does not get skipped by the code generation engine.
 
 ## Images and Code Generation
 
@@ -43,13 +51,6 @@ At the moment we support Illustrations only at design time and once you proceed 
 
 ## Currently Not Supported
 
-The following Indigo.Design components are not implemented for code generation yet:
-
-- Cards
-- Navigation -> NavDrawer
-- Calendar
-- Dropdown
-
 The following Sketch components are not implemented for code generation yet:
 
 - Shapes
@@ -62,9 +63,6 @@ The following Sketch components are not implemented for code generation yet:
 - Pencil
 - Mask
 - Elevation
-
-> [!Note]
-> Future releases will include these components.
 
 ## Proportional widths not completed
 
