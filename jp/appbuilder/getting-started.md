@@ -38,7 +38,7 @@ OIndigo.Design にサインインすると、ホーム画面が表示されま�
 1. <b>既存のデザインから作成</b> - Sketch の Indigo.Design UI キットを使用して作成された既存の Sketch ファイルがある場合、この時点でアップロードして App Builder でデザインを続行できます。Sketch の絶対レイアウトと App Builder の Flex レイアウトの違いにより、Sketch ファイルの解析後に追加の調整が必要になる場合があります。
 2. <b>サンプル アプリ</b> - 入門アプリは、Indigo Design App Builder を使用して作成されたアプリケーションを探索するのに役立ち、独自のユーザー スペースでそれらを変更することもできます。また、独自のアプリを最初から作成しなくても、より大きなアプリケーション用に生成されたコードをプレビューするための優れたソースです。Indigo Design App Builder を初めて使用する場合は、[Sample Apps] オプションを開始点として使用することをお勧めします。これは、ツールのすばらしい機能を利用してアプリケーションの構築を開始するための最も簡単な方法です。
 3. <b>既定のレイアウト</b> - 定義済みの基本レイアウトを使用して新しいアプリケーションを作成します。
-4. <<b>Blank (空白)</b> - 新しいアプリを最初から作成します。
+4. <b>Blank (空白)</b> - 新しいアプリを最初から作成します。
 
 <img class="responsive-img" src="../images/getting-Started-new-project-dialog-Indigo-Design-App-Builder.png" srcset="../images/getting-Started-new-project-dialog-Indigo-Design-App-Builder-@2x.png 2x" />
 <p style="text-align:center;">[新しいプロジェクト] ダイアログ</p>
