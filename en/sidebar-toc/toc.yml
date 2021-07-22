@@ -82,8 +82,11 @@
 
 - name: Using the Design System
   header: true
-- name: Creating Your First Artboard
-  href: ../creating-an-artboard.md
+- name: Creating An Artboard in Sketch
+  href: ../creating-artboard-sketch.md
+- name: Creating An Artboard in AdobeXD
+  href: ../creating-artboard-adobexd.md
+  new: true
 - name: Sync and Themes Plugin
   href: ../sync-themes-plugin.md
 - name: Styling

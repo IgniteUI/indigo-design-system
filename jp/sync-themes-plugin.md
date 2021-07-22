@@ -15,6 +15,10 @@ Indigo.Design プラグインは、ヘッダーの`作用の開始`ボタンを�
 
 <img class="responsive-img" src="images/Sync_themes_plugin_Download.png" srcset="images/Sync_themes_plugin_Download@2x.png 2x" />
 
+
+<img class="responsive-img" src="../images/indigo-design-resources.gif" />
+<p style="text-align:center;">Indigo.Design リソース</p>
+
 ## 2. テーマ
 
 このセクションでは、Indigo.Design UI Kit で作成した Sketch プロジェクトでテーマを作成する際のベスト プラクティスについて説明します。以下の方法に従ってタイポグラフィや色などブランディング アセットをプロジェクトやライブラリに適用できます。複数のプロジェクト内のすべての UI コンポーネントで統一したブランディングを表現できます。

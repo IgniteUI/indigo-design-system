@@ -16,7 +16,6 @@
   new: true
 - name: Flex レイアウト
   href: ../appbuilder/flex-layouts/flex-layouts.md
-  new: true
   # items:
   #   - name: 行と列のレイアウト
   #     href: ../appbuilder/flex-layouts/row-and-column-layout.md
@@ -28,7 +27,6 @@
   #     href: ../appbuilder/flex-layouts/additional-resources-to-learn-about-web-layouts.md
 - name: UI コンポーネント
   href: ../appbuilder/indigo-design-app-builder-components.md
-  new: true
   # items:
   #   - name: Quick add components
   #     href: ../appbuilder/indigo-design-components/quick-add-components.md
@@ -37,7 +35,6 @@
   
 - name: インタラクション
   href: ../appbuilder/interactions.md
-  new: true
   # items:
   #   - name: Quick add components
   #     href: ../appbuilder/indigo-design-components/quick-add-components.md
@@ -46,11 +43,9 @@
 
 - name: アプリでデータを使用する
   href: ../appbuilder/using-data-in-your-app.md
-  new: true
 
 - name: テーマ
   href: ../appbuilder/app-themes/app-themes.md
-  new: true
   # items:
   #   - name: Switching app themes
   #     href: ../appbuilder/app-themes/switching-app-themes.md
@@ -60,20 +55,27 @@
   #     href: ../appbuilder/app-themes/customize-and-apply-theme.md
 - name: 単一ページアプリとナビゲーション
   href: ../appbuilder/single-page-apps-and-navigation.md
-  new: true
   # items:
   #   - name: Master view vs. Child views
   #     href: ../appbuilder/spa-and-navigation/master-view-vs-child-views.md
   #   - name: Add navigations (routing)
   #     href: ../appbuilder/spa-and-navigation/add-navigations-routing.md
-- name: コードをプレビューしてアプリを生成する
-  href: ../appbuilder/preview-code-and-generate-app.md
-  new: true
+- name: コードのプレビュー
+  href: ../appbuilder/preview-code.md
   # items:
   #   - name: Preview code
   #     href: ../appbuilder/preview-code-and-genrate-app/preview-code.md
   #   - name: Compile and Run the app
   #     href: ../appbuilder/preview-code-and-genrate-app/compile-and-run-the-app.md
+- name: アプリの生成
+  href: ../appbuilder/generate-app/generate-app-overview.md
+  new: true
+  items:
+    - name: アプリケーションを Github にアップロード
+      href: ../appbuilder/generate-app/upload-application-to-github.md
+    - name: アプリケーションをローカルで実行
+      href: ../appbuilder/generate-app/run-application-locally.md
+
 - name: 変更ログ
   href: ../appbuilder/change-log.md
   new: true

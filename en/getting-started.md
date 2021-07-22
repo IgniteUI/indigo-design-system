@@ -14,17 +14,17 @@ Indigo.Design offers three key capabilities to support the design to development
 
 <img class="responsive-img" src="images/indigo-design-how-it-works.png" />
 
-1.  Create designs in Sketch with the `Indigo.Design System`
+1.  Create designs in Sketch or Adobe XD with the `Indigo.Design System`
 2.  Share as prototypes to test and collaborate with users via `cloud.indigo.design`
 3.  Generate code from prototypes using the `Indigo.Design code generator` (Ignite UI for Angular)
 
 ### 1. Indigo.Design System
 
-The design system is a Sketch library that contains various components (symbols) that allow a designer to create intricate user interfaces and leverage pre-made palettes, typographies and assets such as icons and illustrations. On top of that UI components are built to offer design time flexibility through various states and templates. To improve your productivity there is also a collection of patterns such as product details layouts, various forms, and pricing tables among others.
+The design system is a library for Sketch and Adobe XD that contains various assets, styles, components, and patterns. Тhe UI components allow you to create intricate user interfaces providing you with the flexibility to use various states and templates. To customize their appearance you may leverage the pre-made palettes, typographies, shadows, icons, and illustrations. And finally, with the provided collection of patterns, such as product details layouts, various forms, and pricing tables among others, you are able to streamline app design assuring the application of best practices in UI and interaction design.
 
 Learn more:
-
-[Create your first Sketch artboard](creating-an-artboard.md)
+* [Create your first Sketch artboard](creating-artboard-sketch.md)
+* [Create your first Adobe XD artboard](creating-artboard-adobexd.md)
 
 ### 2. Prototyping & Usability Testing
 
